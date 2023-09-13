@@ -1,0 +1,24 @@
+.animate{
+    animation-name: animationMusic;
+    animation-duration:0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+
+@keyframes animationMusic {
+    0% {
+        transform: translateY(0px);
+        transition: transform 0.3s ease;
+    }
+
+    50%{
+        transform: translateY(15px);
+        transition: transform 0.3s ease;
+    }
+
+    100%{
+        transform: translateY(0px);
+        transition: transform 0.3s ease;
+    }
+}
